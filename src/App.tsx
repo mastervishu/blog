@@ -17,7 +17,7 @@ function App() {
 
   return (
     <ThemeProvider value={{ theme, toggle }}>
-      <Navbar currentTheme={theme} themeToggle={toggle} />
+      <Navbar />
       <div className="mt-[65px] w-full bg-white dark:bg-gray-900 duration-500">
         <Home />
         <About />
