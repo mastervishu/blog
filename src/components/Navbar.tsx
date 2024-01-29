@@ -2,7 +2,7 @@ import { FaBlog } from "react-icons/fa";
 import { CiLight, CiDark } from "react-icons/ci";
 import useTheme from "../context/theme";
 
-export default function Navbar(props: any) {
+export default function Navbar() {
     const { theme, toggle } = useTheme();
     const toggleMobileNav = () => document.querySelector("#navbar-sticky")?.classList.toggle("hidden");
     return (
